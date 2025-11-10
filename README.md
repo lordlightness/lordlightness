@@ -1,118 +1,107 @@
-<h1 align="center">💻 ShyChimera.exe</h1>
-<h3 align="center">Half Code • Half Chaos • 100% Working (Sometimes)</h3>
+<h1 align="center">💻 ShyChimera.lmao</h1>
+<p align="center"><i>Half Code • Half Chaos • Full Sarcasm</i></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/status-experimental-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge" alt="build" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="license" />
+  <img src="https://img.shields.io/badge/status-experimental-yellow?style=for-the-badge" alt="status" />
 </p>
 
----
+<hr/>
 
-> 🧠 A Node.js-based chaos machine that probably shouldn’t work, but somehow does.  
-> Made for fun, caffeine, and debugging existential crises.
+<h2 align="center">🖤 About (read: warnings for the bucin)</h2>
 
----
+<pre><code>  _____ _               _____ _ _
+ / ____| |             / ____| (_)
+| (___ | |__   ___ _ _| |    | |_
+ \___ \| '_ \ / _ \ '__| |    | | |
+ ____) | | | |  __/ |  | |____| | |
+|_____/|_| |_|\___|_|   \_____|_|_|
+</code></pre>
 
-## 🚀 Installation
+<p>
+This repo contains code, questionable decisions, and a friendly reminder:
+<strong>If you’re here because of love, this repo won't fix that — but it will roast it.</strong>
+</p>
 
-**For macOS & Linux:**
-```bash
-npm install shychimera --save
-```
+<p>
+⚠️ <em>Warning for the romantically challenged:</em> Installing feelings may cause dependency conflicts,
+unexpected crashes, and infinite loops of texting first. Proceed at your own heartbreak.
+</p>
 
-**For Windows users:**
-```bash
-echo "Good luck, soldier." > autoexec.bat
-```
+<hr/>
 
----
+<h2>🚀 Install</h2>
 
-## ⚙️ Usage Example
+<pre><code class="language-bash"># macOS & Linux
+npm install shychimera.lmao --save
 
-```js
-import Chimera from "shychimera";
+# Windows (proceed only if you have emotional backup)
+echo "reinstall feelings" &gt; autoexec.bat
+</code></pre>
 
-const app = new Chimera({
-  mode: "debug",
-  chaosLevel: 999
-});
+<hr/>
+
+<h2>⚙️ How to Run (if you're brave)</h2>
+
+<pre><code class="language-js">import Chimera from "shychimera.lmao";
+
+const app = new Chimera({ mode: "debug", empathy: 0 });
 
 app.boot();
-app.run(() => console.log("✅ System stable (for now)..."));
-```
+app.run(() =&gt; console.log("✅ System stable-ish. Heart not included."));</code></pre>
 
-> 💬 *If something breaks, congratulations — you just unlocked a hidden feature.*
+<p><em>If it crashes, it's documented behavior. Like ghosting — intentional.</em></p>
 
----
+<hr/>
 
-## 🧩 Development Setup
+<h2>🧩 Dev Setup</h2>
 
-Clone, break, and (maybe) fix it again:
-
-```bash
-git clone https://github.com/lordlightness/shychimera.git
-cd shychimera
+<pre><code class="language-bash">git clone https://github.com/lordlightness/shychimera.lmao.git
+cd shychimera.lmao
 npm install
-npm test
-```
+npm test</code></pre>
 
----
+<hr/>
 
-## 🧠 Release History
+<h2>🔧 API (for sad devs)</h2>
 
-| Version | Changes |
-|----------|----------|
-| 0.2.3 | ✨ Added more bugs to fix later |
-| 0.2.0 | ⚙️ Rewrote everything in one night |
-| 0.1.0 | 🚀 First “it actually runs” release |
-| 0.0.1 | 🧪 Initial chaos test |
+<table>
+  <tr><th>Method</th><th>Description</th></tr>
+  <tr><td><code>boot()</code></td><td>Start the system. Not a therapist.</td></tr>
+  <tr><td><code>run(cb)</code></td><td>Execute main routine. Callback optional, feelings not included.</td></tr>
+  <tr><td><code>crash()</code></td><td>Simulate heartbreak for testing.</td></tr>
+  <tr><td><code>debug()</code></td><td>Logs sympathy, returns meaningless hope.</td></tr>
+</table>
 
----
+<hr/>
 
-## 📡 API Overview
+<h2>📜 Release Notes</h2>
 
-| Method | Description |
-|---------|--------------|
-| `boot()` | Starts the chaos engine |
-| `run(callback)` | Executes the system task |
-| `crash()` | Intentionally breaks everything |
-| `debug()` | Pretends to fix the crash |
+<ul>
+  <li><strong>v0.3.0</strong> — Added sarcasm module & improved ghosting detection.</li>
+  <li><strong>v0.2.0</strong> — Rewrote the feelings parser; less accurate, more dramatic.</li>
+  <li><strong>v0.1.0</strong> — Initial chaotic release.</li>
+</ul>
 
----
+<hr/>
 
-## 🧍 About Me
+<h2>👤 About the Author</h2>
 
-```js
-const me = {
-  name: "ShyChimera",
-  mood: "debugging life",
-  skills: ["Node.js", "Express", "JS", "breaking things"],
+<pre><code>const author = {
+  handle: "ShyChimera.lmao",
+  origin: "Probably late-night terminal",
+  fuels: ["instant noodles", "bad Wi‑Fi", "dark coffee"]
 };
-
-console.log(`Hi, I’m ${me.name}. Still figuring out why this works.`);
-```
-
----
-
-## 🛰️ Connect With Me
+</code></pre>
 
 <p align="center">
-  <a href="https://github.com/lordlightness">
-    <img src="https://img.shields.io/badge/GitHub-lordlightness-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://wa.me/6287861848232">
-    <img src="https://img.shields.io/badge/WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
+  <a href="https://github.com/lordlightness"><img src="https://img.shields.io/badge/GitHub-lordlightness-181717?style=for-the-badge&logo=github" alt="github" /></a>
+  <a href="https://wa.me/6287861848232"><img src="https://img.shields.io/badge/WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp" alt="whatsapp" /></a>
 </p>
 
----
+<hr/>
 
-## 📜 License
+<p align="center"><em>Note:</em> Headings use HTML tags to avoid anchor link icons on GitHub. Clean, dark, and subtly savage.</p>
 
-Distributed under the **MIT License**.  
-See `LICENSE` for more details.
-
----
-
-<p align="center">💀 “System unstable but still compiling...”</p>
+<p align="center">💀 “Love.js returned NULL — try rebooting life.”</p>
