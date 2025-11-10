@@ -1,75 +1,118 @@
-<!-- HEADER ANIMATION -->
-<h1 align="center"> Hi, I'm ShyChimera </h1>
-<h3 align="center">💫 Gabuters</h3>
-
----
+<h1 align="center">💻 ShyChimera.exe</h1>
+<h3 align="center">Half Code • Half Chaos • 100% Working (Sometimes)</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=435&lines=Welcome+to+my+GitHub!+💻;I+love+building+automation+tools!+⚙️;Always+learning+something+new+🚀" alt="Typing Animation" />
+  <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/status-experimental-yellow?style=for-the-badge" />
 </p>
 
 ---
 
-### 🌸 About Me
-
-- 🔭 Currently working on **LanBot** & **Cloud-Bot-Whatsapp-Multi-Device**  
-- 🌱 Learning about **APIs**, **Cloud Modules**, and **Node.js automation**  
-- 💬 Ask me about **JavaScript**, **Node.js**, or **Bot Development**  
-- 🎯 Goal: Create automation tools that make tech simpler for everyone  
-- ☕ Fun fact: I debug better with coffee at 2 AM 🌙  
+> 🧠 A Node.js-based chaos machine that probably shouldn’t work, but somehow does.  
+> Made for fun, caffeine, and debugging existential crises.
 
 ---
 
-### 🛠️ Tech Stack
+## 🚀 Installation
 
-<div align="center">
+**For macOS & Linux:**
+```bash
+npm install shychimera --save
+```
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=fff)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000)
-
-</div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=lordlightness&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=lordlightness&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
-
-</div>
+**For Windows users:**
+```bash
+echo "Good luck, soldier." > autoexec.bat
+```
 
 ---
 
-### 🌀 Activity Graph
+## ⚙️ Usage Example
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lordlightness&theme=react-dark&hide_border=true&area=true" width="95%" />
-</div>
+```js
+import Chimera from "shychimera";
+
+const app = new Chimera({
+  mode: "debug",
+  chaosLevel: 999
+});
+
+app.boot();
+app.run(() => console.log("✅ System stable (for now)..."));
+```
+
+> 💬 *If something breaks, congratulations — you just unlocked a hidden feature.*
 
 ---
 
-### 🖤 Connect With Me
+## 🧩 Development Setup
 
-<div align="center">
+Clone, break, and (maybe) fix it again:
 
-[![GitHub](https://img.shields.io/badge/GitHub-lordlightness-181717?style=for-the-badge&logo=github)](https://github.com/lordlightness)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6287861848232)
-
-</div>
+```bash
+git clone https://github.com/lordlightness/shychimera.git
+cd shychimera
+npm install
+npm test
+```
 
 ---
+
+## 🧠 Release History
+
+| Version | Changes |
+|----------|----------|
+| 0.2.3 | ✨ Added more bugs to fix later |
+| 0.2.0 | ⚙️ Rewrote everything in one night |
+| 0.1.0 | 🚀 First “it actually runs” release |
+| 0.0.1 | 🧪 Initial chaos test |
+
+---
+
+## 📡 API Overview
+
+| Method | Description |
+|---------|--------------|
+| `boot()` | Starts the chaos engine |
+| `run(callback)` | Executes the system task |
+| `crash()` | Intentionally breaks everything |
+| `debug()` | Pretends to fix the crash |
+
+---
+
+## 🧍 About Me
+
+```js
+const me = {
+  name: "ShyChimera",
+  mood: "debugging life",
+  skills: ["Node.js", "Express", "JS", "breaking things"],
+};
+
+console.log(`Hi, I’m ${me.name}. Still figuring out why this works.`);
+```
+
+---
+
+## 🛰️ Connect With Me
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rafaballerini/rafaballerini/main/github-contribution-grid-snake.svg" width="80%" alt="Snake Animation" />
+  <a href="https://github.com/lordlightness">
+    <img src="https://img.shields.io/badge/GitHub-lordlightness-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://wa.me/6287861848232">
+    <img src="https://img.shields.io/badge/WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
 </p>
 
-<p align="center">✨ “Code like art — elegant, simple, powerful.” ✨</p>
+---
 
-<p align="center">
-  <img src="https://i.ibb.co/zJzq4PQ/falling-flowers.gif" width="100%" alt="Falling Flowers Footer" />
-</p>
+## 📜 License
+
+Distributed under the **MIT License**.  
+See `LICENSE` for more details.
+
+---
+
+<p align="center">💀 “System unstable but still compiling...”</p>
