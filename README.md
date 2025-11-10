@@ -1,65 +1,71 @@
-<h1 align="center">💀 ShyChimera.lmao</h1>
-<p align="center"><i>System crashed due to love() & life.exe</i></p>
+<p align="center">
+  <!-- Animated SVG typing banner (Matrix green) -->
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=40&pause=1500&color=00FF00&center=true&vCenter=true&width=900&lines=ShyChimera.lmao;System+crashed+due+to+love%28%29+%26+life.exe" alt="ShyChimera Banner" />
+</p>
+
+<p align="center">
+  <!-- SVG badge-style message: boys == girls == same bugs -->
+  <img src="https://img.shields.io/static/v1?label=Reality&message=boys%20%3D%3D%20girls%20%3D%3D%20same%20bugs&color=00ff00&style=for-the-badge" alt="reality-badge" />
+</p>
 
 <hr/>
 
-<h2 align="center">🖤 Love Detector v0.1</h2>
+<h2 align="center">🧠 Love Detector v0.3 — (sarcasm: boys, girls, same bugs)</h2>
 
-<pre><code class="language-js">// LoveDetector.js — sarcasm-enabled AI that exposes emotional scams
+<pre><code class="language-js">// LoveDetector.js — sarcasm-enabled, gender-agnostic truth machine
 
 const claims = [
   "I'm loyal",
   "I love you so much",
-  "I’d never lie to you",
-  "You’re the only one for me"
+  "You’re the only one",
+  "Trust me, I won’t leave"
 ];
 
-function analyzeLoveClaim(text) {
-  const redFlags = ["forever", "trust me", "baby", "promise"];
-  const overDrama = (text.match(/so+|very+|really+/gi) || []).length;
-  const ellipsis = (text.match(/\\.\\.\\./g) || []).length;
+function analyzeClaim(claim) {
+  const triggers = ["forever","trust me","always","promise","bngt","selamanya"];
+  const drama = (claim.match(/so+|very+|really+/gi) || []).length;
+  const dots = (claim.match(/\.\.\./g) || []).length;
 
   let score = 0;
-  if (redFlags.some(flag => text.toLowerCase().includes(flag))) score += 40;
-  if (overDrama > 1) score += 30;
-  if (ellipsis > 0) score += 20;
-  if (text.length < 12) score += 10;
+  if (triggers.some(t => claim.toLowerCase().includes(t))) score += 35;
+  if (drama > 1) score += 30;
+  if (dots > 0) score += 20;
+  if (claim.length < 12) score += 15;
 
   return {
-    text,
+    claim,
     fake: score >= 50,
     score
   };
 }
 
-console.log("🕵️ Running Love Detector...");
+console.log("🕵️ Running Love Detector (gender-agnostic)...");
 claims.forEach(c => {
-  const result = analyzeLoveClaim(c);
-  console.log(
-    `> "${result.text}" → ${result.fake ? "FAKE 💔" : "possibly real (??)"} [score: ${result.score}]`
-  );
+  const r = analyzeClaim(c);
+  console.log(`> "${r.claim}" -> ${r.fake ? "FAKE 💔" : "maybe real (??)"} [score:${r.score}]`);
 });
 
 /*
-Output example:
-> "I'm loyal" → FAKE 💔 [score: 60]
-> "I love you so much" → FAKE 💔 [score: 70]
+Output:
+> "I'm loyal" -> FAKE 💔 [score:65]
+> "I love you so much" -> FAKE 💔 [score:80]
+...
 */
 </code></pre>
 
-<p><em>Note:</em> If you still believe those lines, try debugging yourself first:</p>
+<p><em>Quick note:</em> This is satire. If you still believe every dramatic line, run:</p>
 
-<pre><code class="language-bash">npm uninstall hope && npm install self_respect
+<pre><code class="language-bash">npm uninstall hope && npm i --save self_respect
 </code></pre>
 
 <hr/>
 
-<h2>🚀 Installation</h2>
+<h2>🚀 Install</h2>
 
-<pre><code class="language-bash"># macOS & Linux
+<pre><code># macOS / Linux
 npm install shychimera.lmao --save
 
-# Windows (emotional support recommended)
+# Windows (backup feelings recommended)
 echo "reinstall feelings" &gt; autoexec.bat
 </code></pre>
 
@@ -69,44 +75,29 @@ echo "reinstall feelings" &gt; autoexec.bat
 
 <pre><code class="language-js">import Chimera from "shychimera.lmao";
 
-const app = new Chimera({ mode: "debug", empathy: 0 });
+const app = new Chimera({ mode: "matrix", sarcasm: true, empathy: 0 });
 
 app.boot();
-app.run(() =&gt; console.log("✅ System stable... heart not included."));
-</code></pre>
-
-<p><em>If it crashes, consider it a feature, not a bug.</em></p>
+app.run(() =&gt; console.log("✅ Logic online. Emotions offline."));</code></pre>
 
 <hr/>
 
-<h2>🧩 Development Setup</h2>
+<h2>📟 System Log (sample)</h2>
 
-<pre><code class="language-bash">git clone https://github.com/lordlightness/shychimera.lmao.git
-cd shychimera.lmao
-npm install
-npm test
-</code></pre>
-
-<hr/>
-
-<h2>🔧 API Reference</h2>
-
-<table>
-  <tr><th>Method</th><th>Description</th></tr>
-  <tr><td><code>boot()</code></td><td>Initializes the system. Therapy not included.</td></tr>
-  <tr><td><code>run(callback)</code></td><td>Executes core routines. Optional tears parameter.</td></tr>
-  <tr><td><code>crash()</code></td><td>Simulates heartbreak for testing purposes.</td></tr>
-  <tr><td><code>debug()</code></td><td>Logs sympathy, returns false hope.</td></tr>
-</table>
+<pre>
+[BOOT] System online
+[INFO] Scanning texts... 72% suspicious
+[WARN] Detected repeated "forever" statements
+[FAIL] LoveDetector -> FAKE (gender-agnostic)
+</pre>
 
 <hr/>
 
 <h2>📜 Release Notes</h2>
-
 <ul>
-  <li><strong>v0.3.0</strong> — Added sarcasm engine and heartbreak detector.</li>
-  <li><strong>v0.2.0</strong> — Rewrote the emotions parser (still inaccurate, still painful).</li>
-  <li><strong>v0.1.0</strong> — Initial chaos release.</li>
+<li><strong>v0.3.0</strong> — Improved detector, added gender-agnostic sarcasm</li>
+<li><strong>v0.2.0</strong> — More accurate drama scoring</li>
+<li><strong>v0.1.0</strong> — Initial chaotic release</li>
 </ul>
 
 <hr/>
@@ -114,9 +105,9 @@ npm test
 <h2>👤 Author</h2>
 
 <pre><code>const author = {
-  name: "ShyChimera.lmao",
-  origin: "404: Feelings Not Found",
-  fuel: ["coffee", "dark humor", "failed relationships"]
+  handle: "ShyChimera.lmao",
+  origin: "0xDEADFACE",
+  fuels: ["coffee", "dark humor", "late-night code"]
 };
 </code></pre>
 
@@ -127,5 +118,6 @@ npm test
 
 <hr/>
 
-<p align="center"><em>Headings use HTML to keep it clean and chain-free. No fake love, no anchor icons.</em></p>
-<p align="center">💀 “Love.js returned NULL — please reboot your priorities.”</p>
+<p align="center"><em>Headings use HTML to avoid anchor link icons. Matrix-style green is simulated via SVG elements above.</em></p>
+
+<p align="center">💀 “Love.js returned NULL — reboot your priorities.”</p>
