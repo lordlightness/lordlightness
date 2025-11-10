@@ -1,6 +1,6 @@
-<!-- 🌸 HEADER ANIMATION -->
-<h1 align="center">🌸 Hi, I'm ShyChimera 🌸</h1>
-<h3 align="center">💫 Developer • Bot Maker • Cloud Enthusiast</h3>
+<!-- HEADER ANIMATION -->
+<h1 align="center"> Hi, I'm ShyChimera </h1>
+<h3 align="center">💫 Gabuters</h3>
 
 ---
 
